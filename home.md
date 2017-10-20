@@ -3,7 +3,7 @@
 
 # Welcome
 
-This wiki was written within a node.js application called Wiki.js ( https://github.com/Requarks/wiki ). I wrote the following docker-compose file based on the one that they provide as an example here: https://github.com/Requarks/wiki/blob/master/tools/docker-compose.yml
+This wiki was written within a node.js application called Wiki.js ( https://github.com/Requarks/wiki ). The application and other apps working together with it are all running within containers which in turn is running on my Windows 10 desktop PC right now. I wrote the following docker-compose file based on the one that they provide as an example here: https://github.com/Requarks/wiki/blob/master/tools/docker-compose.yml
 
 ```
 version: '3.1'
