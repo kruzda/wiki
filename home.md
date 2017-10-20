@@ -3,7 +3,7 @@
 
 # Welcome
 
-This wiki was written within a node.js application called Wiki.js ( https://github.com/Requarks/wiki ). This application and others working together with it are all running within containers run by Docker CE on my Windows 10 desktop PC right now. The actual virtual machine is Docker Engine ( https://docs.docker.com/engine/ ) running within Hyper-V and is a boot2docker ( http://boot2docker.io/ ) instance. This is all set up and configured by Docker Machine ( https://docs.docker.com/machine/overview/ ). Finally it is Docker Compose that is orchestrating the resources based on the docker-compose.yaml file below. This is based on the one that they provide as an example here: https://github.com/Requarks/wiki/blob/master/tools/docker-compose.yml
+This wiki was written within a node.js application called Wiki.js ( https://github.com/Requarks/wiki ). This application and others working together with it are all running within containers run by Docker CE on my Windows 10 desktop PC right now. The actual virtual machine is Docker Engine ( https://docs.docker.com/engine/ ) running within Hyper-V and is a boot2docker ( http://boot2docker.io/ ) instance. This is all set up and configured by Docker Machine ( https://docs.docker.com/machine/overview/ ). Finally it is Docker Compose that is orchestrating the resources based on the docker-compose file below. This is based on the one that they provide as an example here: https://github.com/Requarks/wiki/blob/master/tools/docker-compose.yml
 
 ```
 version: '3.1'
